@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 1</title>
+   <style>
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        header img {
+            width: 150px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+        } 
+
+        nav a:hover {
+            color: red;
+        }
+
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .left img {
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        .left {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right {
+            width: 50%;
+        }
+
+        .right h1 {
+            font-size: 45px;
+            color: rgb(54, 47, 47);
+        }
+
+        .right p {
+            font-size: 20px;
+            color: #222;
+        }
+
+        button {
+            margin-right: 15px;
+            color: #fff;
+            font-size: 20px;
+            background-color: blue;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #bbb;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .footer-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .one img {
+            width: 150px;
+        }
+
+        .two ul li a {
+            text-decoration: none;
+            color: #222;
+            font-size: 16px;
+        }
+
+        .two ul li a:hover {
+            color: red;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        form input {
+            width: 120px;
+            margin-bottom: 6px;
+        }
+
+        form button {
+            color: #fff;
+            font-size: 16px;
+            background-color: blue;
+            padding: 7px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .copyright {
+            display: flex;
+            align-items: center;
+        }
+
+        .copyright p {
+            font-size: 15px;
+        }
+   </style>
+  </head>
+  <body>
+    <!-- Header Start -->
+   <header >
+    <img src="/images/Gomycode-KE.svg" alt="logo">
+    <nav>
+        <a href="">Home</a>
+        <a href="">About us</a>
+        <a href="">Our Works</a>
+        <a href="">Contacts</a>
+    </nav>
+   </header>
+    <!-- Header End -->
+
+    <!-- Main Section Start -->
+    <section>
+        <div class="left">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1284104661-min-1670505544.jpg?crop=0.668xw:1.00xh;0.182xw,0&resize=640:*" alt="person">
+        </div>
+        <div class="right">
+            <h1>Take your first Step.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perferendis qui laboriosam rem ut assumenda optio nam illum incidunt quia. Cum culpa magnam iusto eum.</p>
+            <div>
+                <button>Portfolio</button>
+                <button>Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Main Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-main">
+            <div class="one">
+                <img src="/images/Gomycode-KE.svg" alt="footer-logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, illo.</p>
+            </div>
+            <div class="two">
+                <ul>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Hackerspaces</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </div>
+            <div class="three">
+                <form >
+                    <input type="text " placeholder="Name...">
+                    <input type="email" placeholder="Email...">
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright&copy;2024 GOMYCODE-KE.</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+  </body>
+</html>
